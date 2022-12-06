@@ -13,5 +13,6 @@ namespace GameConsoleDemo.Data
             : base(options)
         {
         }
+        public DbSet<GameConsoleDemo.Models.GameConsole> GameConsole { get; set; }
     }
 }
